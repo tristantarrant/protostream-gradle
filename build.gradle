@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+group = 'org.infinispan.playground'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.infinispan.protostream:protostream:5.0.3.Final'
+    implementation 'org.infinispan.protostream:protostream-processor:5.0.3.Final'
+    annotationProcessor 'org.infinispan.protostream:protostream-processor:5.0.3.Final'
+}
